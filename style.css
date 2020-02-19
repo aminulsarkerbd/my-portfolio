@@ -4,7 +4,15 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    color: dimgray;
 }
 
 .hightlight-name {
@@ -29,4 +37,21 @@ section {
 .top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+
+.link-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: -webkit-gradient(linear, left top, right top, from(lightsalmon), to(tomato));
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
