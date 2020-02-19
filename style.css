@@ -15,7 +15,7 @@ p {
     color: dimgray;
 }
 
-.hightlight-name {
+.orange-highlight {
     color: orange;
 }
 
@@ -54,4 +54,41 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience {
+    -webkit-box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    text-align: justify;
+    padding-right: 2%;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    -o-border-image: linear;
+    border-image: -webkit-gradient(linear, left top, left bottom, from(lightsalmon), to(tomato));
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+footer p {
+    font-size: 12px;
+    color: dimgray;
+    text-align: center;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    -o-border-image: linear-gradient(180deg, blue, cyan);
+    border-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(cyan));
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
